@@ -6,7 +6,6 @@ import {AdminLayout} from "../layouts/AdminLayout.jsx";
 
 export const router = createBrowserRouter([
     {
-        // path: "",
         element: <MainLayout/>,
         errorElement: <PageNotFound/>,
         children:[
