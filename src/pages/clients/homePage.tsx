@@ -1,5 +1,5 @@
-import Guide from "../../components/client/HomePage/Guide.jsx";
-import SearchBar from "../../components/client/SearchBar/SearchBar.jsx";
+import Guide from "../../components/client/HomePage/Guide.js";
+import SearchBar from "../../components/client/SearchBar/SearchBar.js";
 
 const HomePage = () => {
 

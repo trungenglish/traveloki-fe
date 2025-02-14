@@ -22,12 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-# Test coverage
-coverage/
-
-# Environment variables
-.env
-
-# Build directory
-build/

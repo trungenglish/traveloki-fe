@@ -16,7 +16,7 @@ import MoreIcon from '@mui/icons-material/MoreVert';
 import { useEffect, useState } from 'react';
 import { useAppStore } from '../../../appStore.jsx';
 import logo from '../../../assets/logoTravelokiWhite.png';
-import {SearchBar} from "../SearchBar/SearchBar.jsx";
+import {SearchBar} from "../SearchBar/SearchBar.js";
 
 const Header = () => {
     const navigate = useNavigate();

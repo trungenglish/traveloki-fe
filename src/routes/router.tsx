@@ -1,13 +1,13 @@
 import {createBrowserRouter} from "react-router-dom";
-import {PageNotFound} from "../pages/SystemPage/PageNotFound.jsx";
-import {MainLayout} from "../layouts/MainLayout.jsx";
-import HomePage from "../pages/HomePage/HomePage.jsx";
-import {AdminLayout} from "../layouts/AdminLayout.jsx";
+import { AdminLayout } from "../layouts/adminLayout";
+import { ClientLayout } from "../layouts/clientLayout";
+import { PageNotFound } from "../pages/systems/PageNotFound";
+import HomePage from "../pages/clients/homePage";
 
 export const router = createBrowserRouter([
     {
         // path: "",
-        element: <MainLayout/>,
+        element: <ClientLayout/>,
         errorElement: <PageNotFound/>,
         children:[
             {
