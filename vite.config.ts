@@ -8,7 +8,8 @@ export default defineConfig({
   plugins: [react(), tsconfigPaths()],
   optimizeDeps: {
     include: [
-      "@gsap/react"
+      '@gsap/react',
+      'antd'
       // include other packages that may broke the build
     ],
   },
