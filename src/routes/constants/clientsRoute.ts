@@ -1,0 +1,1 @@
+export const AIRPORTS_LIST: string = 'airports/list'; 

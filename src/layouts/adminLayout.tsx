@@ -6,7 +6,7 @@ import SideNav from "../components/admin/layout/SideNav.js";
 export const AdminLayout = () => {
     return(
         <>
-            <Header />
+            {/* <Header /> */}
             <Box height={30} />
             <Box sx={{ display: 'flex' }}>
                 <SideNav />
